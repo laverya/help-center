@@ -22,6 +22,9 @@ If command not found is displayed when attempting to execute the replicated CLI 
 source /etc/replicated.alias
 ```
 
+On newer installations of Replicated, the `replicated` and `replicatedctl` commands are shell scripts located within `/usr/local/bin/`.
+If the `replicated` command is not found, you can use `/usr/local/bin/replicated` instead.
+
 ## Version
 List version of currently running replicated components.
 
